@@ -3,3 +3,9 @@ type = string
 default = t2.micro
   
 }
+
+variable "name" {
+  type = string
+  default = "1_infra_instance"
+  
+}
