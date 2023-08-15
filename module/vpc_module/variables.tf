@@ -14,5 +14,5 @@ variable "enable_dns_support" {
 
 variable "vpc_name" {
   type = string
-  default = "tcw_vpc"
+  default = "1_infra_vpc"
 }
