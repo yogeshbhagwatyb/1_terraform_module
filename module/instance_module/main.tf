@@ -3,5 +3,8 @@ resource "aws_instance" "test" {
   instance_type = var.instance_type
   availability_zone = data.aws_availability_zones.available_1.names[0]
   subnet_id = aws_subnet.public_subnet_1.id 
-  vpc_security_group_ids = aws_security_group.sg.id
+  #vpc_security_group_ids = aws_security_group.sg.id
+  tags = {
+    Name = "1_infa_instance"
+  }
 }
