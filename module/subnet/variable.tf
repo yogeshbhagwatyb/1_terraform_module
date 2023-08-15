@@ -4,6 +4,6 @@ variable "public_subnet_cidr_1" {
 }
 variable "public_subnet_tag_1" {
     type = string
-    default = "tcw_public_subnet_az_1a"
+    default = "1_infra_public_subnet_az_1a"
 }
 
